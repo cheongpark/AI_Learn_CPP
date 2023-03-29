@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//거리 기준으로 오름차순 정렬을 하기 위한거
 bool cmp(vector<double> x, vector<double> y) {
 	return x[3] < y[3];
 }
